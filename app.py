@@ -9,11 +9,6 @@ RANDOM_STATE = 42
 
 # title
 st.title('Crop type recommendation and health advisory app')
-page = st.sidebar.selectbox(
-    "Select Feature",
-    ["Crop Recommendation", "Crop Health Advisor"]
-)
-if page=="Crop Recommendation":
   df=pd.read_csv('Crop_recommendation_augmented.csv')
 
   # feature target splitting
