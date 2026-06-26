@@ -174,3 +174,6 @@ if st.button("Predict Crop Type and Get Advisory"):
   st.write("**Specific Advisories:**")
   for adv in advisory_result['advisories']:
       st.markdown(f"- {adv}")
+st.caption(
+    "Disclaimer: The crop recommendation provided by this application is intended as a decision-support guide. For site-specific recommendations and cultivation advice, consult ICAR Krishi, your local Krishi Vigyan Kendra (KVK), or the nearest agricultural extension service."
+)
